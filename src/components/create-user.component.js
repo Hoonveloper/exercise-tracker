@@ -30,7 +30,7 @@ export class CreateUser extends Component {
         this.setState({
             username:'',
         })
-       
+        //
         //window.location = '/'; // list hp로 되돌리기.
     }
     render() {
@@ -38,7 +38,7 @@ export class CreateUser extends Component {
             <div>
             <h3>Create New User</h3>
             <form onSubmit={this.onSubmit}>
-              <div className="form-group"> 
+              <div className="form-group">  
                 <label>Username: </label>
                 <input  type="text"
                     required

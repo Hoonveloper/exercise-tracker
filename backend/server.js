@@ -18,12 +18,12 @@ connection.once('open', () => {
 })
 const exerciseRouter =require('./routes/exercises');
 const userRouter =require("./routes/users");
-app.use(express.urlencoded({extended: false}));g
-app.use(express.json())
+app.use(express.urlencoded({extended: false}));
+app.use(express.json());
 app.use('/exercises', exerciseRouter);
 app.use('/users',userRouter);
 app.use(cors());
-app.use(express.json());
+
 
 app.listen(port, () => {
     console.log(`server started ${port}`);

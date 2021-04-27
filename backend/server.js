@@ -20,9 +20,10 @@ const exerciseRouter =require('./routes/exercises');
 const userRouter =require("./routes/users");
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
+app.use(cors());
 app.use('/exercises', exerciseRouter);
 app.use('/users',userRouter);
-app.use(cors());
+
 
 
 app.listen(port, () => {

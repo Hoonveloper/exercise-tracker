@@ -212,7 +212,7 @@ exerciseList() {
 
 #### 2 
 
-리액트에서 createExercise를 할 때 값을 넣고 create 버튼을 누르면 
+리액트에서 createExercise를 할 때 값을 넣고 create 버튼을 누르면 ,
 
 ```
     onSubmit(e) {

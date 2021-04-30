@@ -1,4 +1,6 @@
-
+http://jihoon-exercise.herokuapp.com/
+(헤로쿠는 장기간 요청이 없으면 서버가 꺼지므로 url 클릭 후 10초가량 기다려야 접속 가능)
+근데 왜 DB연결은 안되지..? 
 
 # MERN 을 이용한 exercise- tracker
 
